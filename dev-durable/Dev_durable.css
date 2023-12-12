@@ -1,0 +1,79 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 10;
+    padding: 10;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+button#contrastButton {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 10px;  /* Ajout de cette ligne pour définir une marge */
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #555;
+}
+
+h4 {
+    color: #666;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style pour le mode contraste élevé */
+body.high-contrast {
+    background-color: #3a2c2c;
+    color: #fff;
+}
+
+body.high-contrast h2{
+    color: #095a2b;
+}
