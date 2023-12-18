@@ -21,16 +21,6 @@ header h1 {
     margin: 0;
 }
 
-button#contrastButton {
-    background-color: #333;
-    color: #fff;
-    padding: 8px 12px;
-    border: none;
-    cursor: pointer;
-    display: block;
-    margin: 20px auto 10px;  /* Ajout de cette ligne pour définir une marge */
-}
-
 section {
     margin: 20px 0;
 }
@@ -68,12 +58,3 @@ footer {
     width: 100%;
 }
 
-/* Style pour le mode contraste élevé */
-body.high-contrast {
-    background-color: #3a2c2c;
-    color: #fff;
-}
-
-body.high-contrast h2{
-    color: #095a2b;
-}
